@@ -1,8 +1,9 @@
 body {
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Ribeye', cursive;
     width: 100%;
-    background-image: url("/14-handlebars/02-Homework/Burger/public/images/fast-food.jpg");
-    opacity: 0.5;
+    background-image: url("../../images/fast-food.jpg");
+    background-repeat: no-repeat;
+    
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
 }
 
 #avail {
-    float: left;
+    float: right;
     margin-right: 6%;
     margin-left: 10%;
 
@@ -21,7 +22,7 @@ h1 {
 }
 
 #devoured {
-    float: left;
+    float: right;
 
 }
 
@@ -33,5 +34,6 @@ li {
 
 #add {
     clear: both;
+    float: right;
     margin-left: 25%;
 }
